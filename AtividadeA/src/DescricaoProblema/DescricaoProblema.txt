@@ -1,0 +1,22 @@
+
+
+
+#Levantar Conceitos
+
+.Sistema de Transporte Urbano
+
+ Dentro do sistema de transporte  
+ temos  as Linhas de Onibus que possuem um numero,nome do bairro , e o nome da empresa.
+
+ onibus que possuem um  numero da linha, numero de identificação, funcionarios,  horario.
+
+ Funcionarios , que possuem  um nome de funcionario, numero de identificação. São três tipos de funcionarios; cobrador, motorista e fiscal.
+
+ Empresa. Temos um relacionamento entre Onibus , um local , Relacionamento com
+ funcionarios, e com a linha onibus .
+  
+ Parada final . temos Um relacionamento com Funcionarios , um atributo informando o local e um relacionamento com Escala de Horario. 
+
+  
+ Escala de Horario contendo relacionamento com Parada Final.
+
