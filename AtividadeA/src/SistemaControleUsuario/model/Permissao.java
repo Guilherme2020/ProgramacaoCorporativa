@@ -1,4 +1,4 @@
-package SistemaControleUsuario.DescricaoProblema.model;
+package SistemaControleUsuario.model;
 
 
 public class Permissao {
