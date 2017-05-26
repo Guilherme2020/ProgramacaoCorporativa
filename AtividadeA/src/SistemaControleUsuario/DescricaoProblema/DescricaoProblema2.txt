@@ -1,0 +1,26 @@
+#Levantar Conceitos
+
+.Sistema de Controle de Autorização/Autenticação/Permissão em um Sistema
+
+	Temos uma classe Usuarios contendo  nome,tipoUsuario
+	Uma classe Grupo, contendo um conjunto de Usuarios
+	Uma classe Permissao, contendo um atributo , niveis de permissao
+
+#Atributos
+
+	Usuarios 
+		.String nome;
+		.String tipoUsuario;
+	Grupo.
+		.String nome;
+		.ArrayList<Usuarios> usuarios;
+	Permissao.
+		.int niveisPermissao
+
+
+			
+				
+
+	
+
+
