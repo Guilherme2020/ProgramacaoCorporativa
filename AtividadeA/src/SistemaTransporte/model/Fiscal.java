@@ -6,6 +6,11 @@ public class Fiscal extends Funcionarios {
     private String nomeFuncionario;
     private int numeroIdentificacao;
 
+    public Fiscal(String nomeFuncionario, int numeroIdentificacao) {
+        super(nomeFuncionario, numeroIdentificacao);
+    }
+
+
     public int getNumeroIdentificacao() {
         return numeroIdentificacao;
     }

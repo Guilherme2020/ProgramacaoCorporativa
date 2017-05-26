@@ -4,11 +4,19 @@ package SistemaTransporte.model;
 import java.util.ArrayList;
 
 public class LinhaOnibus {
-   private  int numero;
-   private String descricao;
-   private Empresa nomeEmpresa;
-   private String sentidoLinha;
-   private ArrayList<Paradas> paradas;
+    private  int numero;
+    private String descricao;
+    private Empresa nomeEmpresa;
+    private String sentidoLinha;
+    private ArrayList<Paradas> paradas;
+
+    public LinhaOnibus(int numero, String descricao, Empresa nomeEmpresa, String sentidoLinha, ArrayList<Paradas> paradas) {
+        this.numero = numero;
+        this.descricao = descricao;
+        this.nomeEmpresa = nomeEmpresa;
+        this.sentidoLinha = sentidoLinha;
+        this.paradas = paradas;
+    }
 
     public int getNumero() {
         return numero;

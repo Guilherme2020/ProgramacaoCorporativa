@@ -5,6 +5,11 @@ public class Cobrador extends Funcionarios {
     private String nomeFuncionario;
     private int numeroIdentificacao;
 
+    public Cobrador(String nomeFuncionario, int numeroIdentificacao) {
+        super(nomeFuncionario, numeroIdentificacao);
+    }
+
+
     public int getNumeroIdentificacao() {
         return numeroIdentificacao;
     }

@@ -6,6 +6,12 @@ public class Funcionarios {
     private String nomeFuncionario;
     private int numeroIdentificacao;
 
+
+    public Funcionarios(String nomeFuncionario, int numeroIdentificacao) {
+        this.nomeFuncionario = nomeFuncionario;
+        this.numeroIdentificacao = numeroIdentificacao;
+    }
+
     public int getNumeroIdentificacao() {
         return numeroIdentificacao;
     }

@@ -5,6 +5,11 @@ public class Motorista  extends Funcionarios{
     private String nomeFuncionario;
     private int numeroIdentificacao;
 
+    public Motorista(String nomeFuncionario, int numeroIdentificacao) {
+        super(nomeFuncionario, numeroIdentificacao);
+    }
+
+
     public int getNumeroIdentificacao() {
         return numeroIdentificacao;
     }
