@@ -1,0 +1,26 @@
+
+
+
+#Levantar Conceitos
+
+
+	Sistema de Fidelidade/Recompensa/Resgate
+
+		A classe milhas contem um atribtuo informando a quantidade de pontos atual do usuario;
+		A classe Viagens contem data, quantidade de Pontos Gerados daquela viagem, valor da Passagem, nome da Empresa daquela viagem.
+
+		A classe EmpresasAereas contem um nome e o tipo de recompensas Ofertadas
+
+#Atributos
+	Milhas.
+		.int quantidadePontos
+
+	Viagens
+		.Calendar data
+		.int quantidadePontosGerados
+		.double valorPassagem
+		.EmpresasAereas nomeEmpresa
+
+	EmpresasAereas
+		.String nome
+		.String tipoRecompensaOfertada	

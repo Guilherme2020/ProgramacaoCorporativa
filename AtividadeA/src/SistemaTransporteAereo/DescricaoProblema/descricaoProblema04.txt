@@ -1,0 +1,32 @@
+
+
+
+#Levantar Conceitos
+
+
+	Sistema de Transporte Aereo
+
+	    Temos a Classe Avioes
+
+	    Temos a Classe Aeroportos
+
+	    Temos a Classe Sala de embarque e  cartao de informacao
+
+
+
+
+
+
+
+
+#Atributos
+             Avioes : private int numeroIdentificacao;
+                                     private String nome;
+
+    	     Aeroportos :  private List<Avioes> quantidadeAvioes;
+                                          private String nomeAeroporto;
+                                          private String endereco;
+                                          private int quantidadeVoosDisponiveis;
+    	    TorresControle: private int numeroFuncionarios;
+                                              private int numeroVoosOperando;
+    	     Sala de embarque: int  cartao de informacao
