@@ -6,9 +6,11 @@
 .Sistema de Transporte Urbano
 
  Dentro do sistema de transporte  
- temos  as Linhas de Onibus que possuem um numero,nome do bairro , e o nome da empresa.
+ temos  as Linhas de Onibus que possuem um numero,Descrição , e o nome da empresa, sentido e para finalizar um conjunto de paradas;
 
- onibus que possuem um  numero da linha, numero de identificação, funcionarios,  horario.
+ Paradas, contendo bairro, um relacionamento com Linhas de Onibus,  Cidade
+
+ onibus que possuem um  numero da linha, numero de identificação, funcionarios que é um conjunto da classe Funcionarios,  horario.
 
  Funcionarios , que possuem  um nome de funcionario, numero de identificação. São três tipos de funcionarios; cobrador, motorista e fiscal.
 
@@ -20,3 +22,49 @@
   
  Escala de Horario contendo relacionamento com Parada Final.
 
+
+#Atributos de cada Classe.
+
+	LinhaOnibus.
+		.int numero
+		.String descricao
+		.Empresa nomeEmpresa
+		. String sentido
+		. ArrayList<Paradas>  paradas;
+	Paradas
+		.ArrayList<LinhaOnibus> linha
+		.String bairro
+		.String cidade
+
+	Onibus.
+		. LinhaOnibus numeroLinha
+		. int numeroIdentificacao
+		. ArrayList<Funcionarios> funcionarios;
+	Funcionarios
+		.String nomeFuncionario
+		.int numeroIdentificacao
+	Cobrador
+		.String nomeFuncionario
+		.int numeroIdentificacao
+	Motorista
+		.String nomeFuncionario
+		.int numeroIdentificacao
+	Fiscal
+		.String nomeFuncionario
+		.int numeroIdentificacao
+	
+	Empresa
+		.ArrayList<Onibus> onibus
+		.String Local
+		.ArrayList<Funcionarios> funcionarios
+		.ArrayList<LinhaOnibus> nomeLinha;	
+	
+	ParadaFinal
+		.ArrayList<Funcionarios> fiscal
+		.String local
+		.ArrayList<EscalaHorario> escalaHorario
+
+	EscalaHorario	
+		.int horario
+		.String data
+		.ArrayList<LinhaOnibus> nomeLinha

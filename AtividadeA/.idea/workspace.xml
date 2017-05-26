@@ -41,25 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cobrador.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SistemaTransporte/model/Cobrador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Motorista.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SistemaTransporte/model/Motorista.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EscalaHorario.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EscalaHorario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SistemaTransporte/model/EscalaHorario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -159,21 +140,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fiscal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SistemaTransporte/model/Fiscal.java">
+      <file leaf-file-name="DescricaoProblema1.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DescricaoProblema/DescricaoProblema1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -278,10 +250,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -294,6 +262,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DescricaoProblema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,12 +717,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495721345799</updated>
-      <workItem from="1495721349426" duration="5738000" />
+      <workItem from="1495721349426" duration="5858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5738000" />
+    <option name="totallyTimeSpent" value="5858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="43" width="1368" height="726" extended-state="6" />
@@ -930,6 +902,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DescricaoProblema/DescricaoProblema.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DescricaoProblema/DescricaoProblema1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
