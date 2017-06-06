@@ -6,11 +6,11 @@ import java.util.Set;
 public class Perfil {
     private String foto;
     private Set<?>  solicitacoesAmizade;
-    private List<?> grupos;
+    private List<Grupo> grupos;
     private String descricao;
     private Set<Post> posts;
 
-    public Perfil(String foto, Set<?> solicitacoesAmizade, List<?> grupos, String descricao, Set<Post> posts) {
+    public Perfil(String foto, Set<?> solicitacoesAmizade, List<Grupo> grupos, String descricao, Set<Post> posts) {
         this.foto = foto;
         this.solicitacoesAmizade = solicitacoesAmizade;
         this.grupos = grupos;
@@ -38,7 +38,7 @@ public class Perfil {
         return grupos;
     }
 
-    public void setGrupos(List<?> grupos) {
+    public void setGrupos(List<Grupo> grupos) {
         this.grupos = grupos;
     }
 
