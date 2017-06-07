@@ -6,8 +6,8 @@ Usuarios
 	tem Perfil, email,numeroconfimacao, nome,senha
 
 Perfil 
-	tem lista Amigos , lista Post, 
-	lista de Grupo,lista de Curtida, lista Pagina,
+	tem lista amigos(Amigos) , lista Post, 
+	lista de Grupo,lista de Curtida, lista Pagina(Paginas),
 	lista RegistroAtividades,lista solicitacaoAmizades(Amigos)
 	tem fotoPefil, dataAniversario, 
 	lista fotosPreferidas,descricao,status;   
@@ -23,12 +23,12 @@ Post tem  Publicacoes, data,
 Publicacoes  
 	tem uma lista de post (Post), atividade,privacidade
 Comentario 
-	tem Usuarios, Post, tem uma lista de respostas
+	tem Usuarios, tem Post, tem uma lista de respostas
 LinhaTempo  
 	tem uma lista de publicacoes(Publicacoes)
 	tem uma lista de anuncios(Anuncio)
 	tem uma lista de notificacoes
-	
+
 Grupo 
 	tem uma lista membros(Usuarios), 
 	tem uma lista publicacoes(Publicacoes)

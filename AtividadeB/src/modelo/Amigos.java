@@ -13,7 +13,7 @@ public class Amigos {
 
     public Amigos(Usuarios usuario, boolean status, Calendar data, Set<Usuarios> amigosComum) {
         this.usuario = usuario;
-        Status = status;
+        this.Status = status;
         this.dataAmizade = data;
         this.amigosComum = amigosComum;
     }
