@@ -11,10 +11,11 @@ public class Amigos {
     private Calendar dataAmizade;
     private Set<Usuarios> amigosComum;
 
-    public Amigos(Usuarios usuario, boolean status, Calendar data) {
+    public Amigos(Usuarios usuario, boolean status, Calendar data, Set<Usuarios> amigosComum) {
         this.usuario = usuario;
         Status = status;
         this.dataAmizade = data;
+        this.amigosComum = amigosComum;
     }
 
     public Usuarios getUsuario() {
@@ -39,5 +40,13 @@ public class Amigos {
 
     public void setData(Calendar data) {
         this.dataAmizade = data;
+    }
+
+    public Set<Usuarios> getAmigosComum() {
+        return amigosComum;
+    }
+
+    public void setAmigosComum(Set<Usuarios> amigosComum) {
+        this.amigosComum = amigosComum;
     }
 }
