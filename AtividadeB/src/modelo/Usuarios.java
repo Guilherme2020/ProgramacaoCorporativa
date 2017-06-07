@@ -4,6 +4,7 @@ package modelo;
 public class Usuarios {
 
     private Perfil perfil;
+
     private String email;
     private int numeroConfirmacao;
     private String nome;

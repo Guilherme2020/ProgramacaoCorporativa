@@ -1,0 +1,52 @@
+
+###__###
+#Descricao escrita do Problema
+
+Usuarios 
+	tem Perfil, email,numeroconfimacao, nome,senha
+
+Perfil 
+	tem lista Amigos , lista Post, 
+	lista de Grupo,lista de Curtida, lista Pagina,
+	lista RegistroAtividades,lista solicitacaoAmizades(Amigos)
+	tem fotoPefil, dataAniversario, 
+	lista fotosPreferidas,descricao,status;   
+
+Amigos 
+	tem uma lista amigosComum(Usuarios) Usuarios, 
+	status, dataAmizade;
+
+
+Post tem  Publicacoes, data, 
+	lista de marcacoes (Usuarios), tem Grupo, 
+	tem lista comentario(Comentario)
+Publicacoes  
+	tem uma lista de post (Post), atividade,privacidade
+Comentario 
+	tem Usuarios, Post, tem uma lista de respostas
+LinhaTempo  
+	tem uma lista de publicacoes(Publicacoes)
+	tem uma lista de anuncios(Anuncio)
+	tem uma lista de notificacoes
+	
+Grupo 
+	tem uma lista membros(Usuarios), 
+	tem uma lista publicacoes(Publicacoes)
+	tem dataCriacao,descricao,
+	tem uma lista de eventos,tem lista anuncios(Anuncios);
+
+Curtida 
+	tem  Post, tipo;
+
+Paginas 
+	tem Anuncio ,tem lista publicacoes(Publicacoes), 
+	lista de curtida(Curtida)
+Anuncio 
+	tem lista paginas(Paginas), interessses ,descricao,
+	configuracao
+
+
+RegistroAtividades 
+	tem uma lista curtida(Curtida),
+	lista de comentario(Comentario),
+	lista de publicacoes(Publicacoes), tem dataAtividade
