@@ -36,7 +36,7 @@ Grupo
 	tem uma lista de eventos,tem lista anuncios(Anuncios);
 
 Curtida 
-	tem  Post, tipo;
+	tem   uma lista de curtidas(Post), tipo;
 
 Paginas 
 	tem Anuncio ,tem lista publicacoes(Publicacoes), 
